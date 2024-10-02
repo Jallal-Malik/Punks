@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFC100;
+}
+
+/* Main Section */
+
+main .main-div a img{
+    width: 300px;
+    height: 95px;
+}
+.main-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.connect{
+    font-size: 22px;
+    font-family: "Grandstander", cursive;
+    font-weight: 900;
+    padding-top: 0.75rem;
+    padding-bottom: 0.45rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: rgb(243 198 132);
+    border: 3px solid black;
+}
+.connect a{
+    color: black;
+    text-decoration: none;
+}
+.coming{
+    text-align: center;
+}
+.coming {
+    animation: wiggleAnimation 3.5s infinite;
+}
+.coming span{
+    font-size: 20px;
+    color: #fff;
+    font-family: cursive;
+}
+
+@keyframes wiggleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    65% {
+        transform: rotate(5deg);
+    }
+    70% {
+        transform: rotate(-5deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Hero Section */
+
+.hero .hero-section{
+    text-align: center;
+}
+.hero .hero-section img{
+    height: 250px;
+    width: 250px;
+}
